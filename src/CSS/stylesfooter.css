@@ -30,11 +30,12 @@ footer h1{
     font-size: clamp(15px, 4vh, 5vw);
 }
 
-footer span{
+footer a{
     font-family: "DMSans-ExtraBold";
     font-size: clamp(15px, 4vh, 5vw);
     color: #0073B6;
     text-shadow: 0 2px 5px rgba(0, 115, 182, 0.425);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
